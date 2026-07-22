@@ -52,8 +52,7 @@ if st.sidebar.button("Run AI Simulation"):
     else:
         st.info("Stable profile. Standard periodic monitoring advised.")
         
-    # Feature: Download Report Simulator
-    report_text = f"BioPredict AI Clinical Report\\nAge: {age}\\nMutation: {mutation}\\nRisk Index: {base_risk}%\\nEfficacy: {efficacy}%"
+    report_text = f"BioPredict AI Clinical Report\nAge: {age}\nMutation: {mutation}\nRisk Index: {base_risk}%\nEfficacy: {efficacy}%"
     st.download_button(
         label="📥 Download Clinical Report (TXT)",
         data=report_text,
