@@ -4,13 +4,6 @@ import numpy as np
 
 st.set_page_config(page_title="BioPredict AI - Precision Medicine Platform", page_icon="🧬", layout="wide")
 
-st.markdown(\"\"\"
-    <style>
-    .main {background-color: #f8fafc;}
-    .stButton>button {background-color: #2563eb; color: white; border-radius: 6px; font-weight: bold;}
-    </style>
-    \"\"\", unsafe_allow_html=True)
-
 st.title("🧬 BioPredict AI: Advanced Multi-Omics & Therapeutics Engine")
 
 st.sidebar.header("🔬 Genomic & Clinical Parameters")
